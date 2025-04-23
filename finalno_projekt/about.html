@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | Arco & Co</title>
+  <style>
+    :root {
+      --lavender: #e6d6f0;
+      --lavender-dark: #c9b2dc;
+      --black: #1a1a1a;
+      --white: #ffffff;
+    }
+  
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f7f1fa, #f3eaf7); /* Soft lavender gradient */
+      color: var(--black);
+    }
+  
+    header {
+      background-color: var(--black);
+      color: var(--white);
+      padding: 4rem 2rem 2rem;
+      text-align: center;
+      border-bottom: 5px solid var(--lavender-dark);
+    }
+  
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: var(--white); /* Text color set to white */
+      letter-spacing: 1px;
+    }
+  
+    header nav a {
+      color: var(--white); /* Ensure links are also white */
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1.1rem;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+  
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: var(--white);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      border: 1px solid var(--lavender-dark);
+    }
+  
+    section {
+      margin-bottom: 3rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+  
+    .img-wrapper {
+      text-align: center;
+      margin: 1.5rem 0;
+    }
+  
+    .img-wrapper img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+  
+    .info {
+      background-color: var(--lavender);
+      padding: 1.5rem;
+      border-left: 5px solid var(--lavender-dark);
+      border-radius: 8px;
+      font-weight: 500;
+    }
+  
+    .info p {
+      margin: 0.5rem 0;
+    }
+  
+    .team-section {
+      margin-top: 4rem;
+    }
+  
+    .team-member {
+      display: flex;
+      align-items: center;
+      margin-bottom: 3rem;
+      gap: 2rem;
+    }
+  
+    .team-member:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  
+    .team-photo {
+      flex: 1;
+    }
+  
+    .team-photo img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+  
+    .team-info {
+      flex: 2;
+    }
+  
+    .team-info h3 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: var(--lavender-dark);
+    }
+  
+    .team-info p {
+      margin: 0.5rem 0 0;
+    }
+  
+    @media (max-width: 768px) {
+      .team-member {
+        flex-direction: column !important;
+        text-align: center;
+      }
+  
+      .team-photo img {
+        margin-bottom: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header style="background-color: #1a1a1a; padding: 2.5rem 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <h1 id="hello" style="
+      color: white;
+      font-size: 3.2rem;
+      font-weight: 800;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    ">
+      ARCO & CO
+    </h1>
+  
+    <nav style="display: flex; gap: 1.8rem; flex-wrap: wrap; margin-top: 1rem;">
+      <a href="index.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">Home</a>
+      <a href="cart.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">Cart</a>
+      <a href="about.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">About</a>
+      <a href="supportus.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">Support us</a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <section>
+      <p>Welcome to <strong>Arco & Co</strong>, your cozy corner of curated home decor — where every piece tells a story, and every corner gets a glow-up. Nestled in Split, Croatia, we’re a passionate small business with big love for interiors.</p>
+      <div class="img-wrapper">
+        <img src="images/soba.jpg" alt="Interior cozy decor">
+      </div>
+
+      <p>Our journey began as a friendship forged in high school halls, and blossomed into a shared dream. We’ve always loved making spaces feel warm, intentional, and beautifully imperfect — so we turned that into Arco & Co.</p>
+      <div class="img-wrapper">
+        <img src="images/vase3.jpg" alt="Decor sample">
+      </div>
+
+      <p>At our shop, you’ll find both brand new and lovingly refurbished pieces — everything from vintage posters to modern vases and one-of-a-kind upcycled furniture. We believe your home should reflect your soul, and we’re here to help it do just that.</p>
+      <div class="img-wrapper">
+        <img src="images/radiona.jpg" alt="Refurbished furniture">
+      </div>
+
+      <p>Whether you're redecorating a corner or starting fresh in a new space, we want to be part of your story. Each item is hand-selected or restored with care, ensuring it brings personality, charm, and a sense of "home."</p>
+      <div class="img-wrapper">
+        <img src="images/rucni.png" alt="Handmade decor">
+      </div>
+
+      <p>And no matter where you are in the world — from cozy mountain cabins to seaside apartments — we’re thrilled to say: <strong>yes, we ship worldwide</strong>.</p>
+      <div class="img-wrapper">
+        <img src="images/shipping.png" alt="Shipping worldwide">
+      </div>
+
+      <p>Thank you for supporting a small business with a big heart. Every like, share, order, and message means the world to us. Welcome to the Arco & Co family.</p>
+    </section>
+
+    <!-- 👩‍🎨 Team Section -->
+    <section class="team-section">
+      <h2 style="text-align:center; color: var(--lavender-dark); margin-bottom: 2rem;">Meet the Founders</h2>
+
+      <div class="team-member">
+        <div class="team-photo">
+          <img src="images/anamarija.png" alt="Founder 1">
+        </div>
+        <div class="team-info">
+          <h3>Anamarija</h3>
+          <p>Anamarija is our detail queen and vintage hunter. With a background in art and a love for all things timeless, she brings a classic warmth to every item we restore. She’s all about mixing soft textures with bold statements.</p>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <div class="team-photo">
+          <img src="images/gabrijel.png" alt="Founder 2">
+        </div>
+        <div class="team-info">
+          <h3>Gabrijel</h3>
+          <p>Gabrijel is our refurb wizard and business guy. He’s the guy who can turn a forgotten chair into a centerpiece. With a knack for functionality and flow, he keeps our designs grounded and purposeful.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 📬 Contact Info -->
+    <section class="info">
+      <p><strong>📍 Location:</strong> Matice hrvatske 1, Split, Croatia</p>
+      <p><strong>📧 Contact:</strong> art&co.gmail.com</p>
+      <p><strong>🌍 We Ship Worldwide</strong></p>
+    </section>
+  </div>
+  <footer style="background-color: #222; color: #fff; padding: 40px 20px; text-align: center; margin-top: 60px;">
+    <div style="max-width: 900px; margin: 0 auto;">
+      
+      <h3 style="margin-bottom: 10px;">ARCO & CO</h3>
+      <p style="margin-bottom: 20px;">Futuristic elegance for modern lifestyles. Discover your aesthetic with us.</p>
+  
+      <div style="margin-bottom: 20px;">
+        <a href="index.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Home</a>
+        <a href="cart.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Cart</a>
+        <a href="about.html" style="color: #fff; margin: 0 15px; text-decoration: none;">About</a>
+        <a href="supportus.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Support us</a>
+      </div>
+  
+      <div style="margin-bottom: 20px;">
+        <p style="margin: 4px;">Email: art&co.gmail.com</p>
+        <p style="margin: 4px;">Phone: +1 234 567 890</p>
+      </div>
+  
+      <div style="margin-bottom: 20px;">
+        <a href="#" style="color: #fff; font-size: 20px; margin: 0 10px;">🔗</a>
+        <a href="#" style="color: #fff; font-size: 20px; margin: 0 10px;">📸</a>
+        <a href="#" style="color: #fff; font-size: 20px; margin: 0 10px;">🐦</a>
+      </div>
+  
+      <hr style="border: none; border-top: 1px solid #444; margin: 30px 0;">
+  
+      <p style="font-size: 14px; color: #aaa;">© 2025 ARCO & CO. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+  
