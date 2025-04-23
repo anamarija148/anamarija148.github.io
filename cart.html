@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order | Arco & Co</title>
+  <style>
+    :root {
+      --lavender: #e6d6f0;
+      --lavender-dark: #c9b2dc;
+      --black: #1a1a1a;
+      --white: #ffffff;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--white);
+      color: var(--black);
+    }
+
+    header {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: var(--white);
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .order-section {
+      background-color: #f8f3fc;
+      border-radius: 12px;
+      padding: 2rem 2.5rem;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      border: 1px solid var(--lavender);
+    }
+
+    .order-section h2 {
+      font-size: 2rem;
+      color: var(--lavender-dark);
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .order-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 1.3rem;
+    }
+
+    .order-section ol {
+      padding-left: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .order-section ol li {
+      margin-bottom: 1rem;
+      font-size: 1.05rem;
+    }
+
+    .cta-box {
+      background-color: var(--lavender);
+      border-left: 5px solid var(--lavender-dark);
+      padding: 1rem 1.5rem;
+      margin-top: 2rem;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    .email-button {
+      display: inline-block;
+      margin-top: 2rem;
+      background-color: var(--lavender-dark);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    .email-button:hover {
+      background-color: #a288bc;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 4rem;
+      padding-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header style="background-color: #1a1a1a; padding: 2.5rem 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <h1 id="hello" style="
+      color: white;
+      font-size: 3.2rem;
+      font-weight: 800;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    ">
+      ARCO & CO
+    </h1>
+  
+    <nav style="display: flex; gap: 1.8rem; flex-wrap: wrap; margin-top: 1rem;">
+      <a href="index.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">Home</a>
+      <a href="cart.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">Cart</a>
+      <a href="about.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">About</a>
+      <a href="supportus.html" style="color: white; text-decoration: none; font-size: 1rem; font-weight: 500;">Support us</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="order-section">
+      <h2>How to Order from Arco & Co</h2>
+
+      <p>Because each item we sell is either one-of-a-kind or carefully handpicked, we take orders via email. It’s a more personal way to connect and ensure you’re getting exactly what you want.</p>
+
+      <p>Here’s how to place your order:</p>
+
+      <ol>
+        <li><strong>Choose your item:</strong> Tell us which piece you'd like (include the name or a description).</li>
+        <li><strong>Tell us where you’re from:</strong> So we can calculate shipping. We ship worldwide!</li>
+        <li><strong>Is it a gift?</strong> Let us know if you want a handwritten card included (at no extra cost).</li>
+      </ol>
+
+      <div class="cta-box">
+        Once we receive your email, we’ll confirm availability, share payment instructions, and sort out the shipping details together.
+      </div>
+
+      <div style="text-align: center;">
+        <a href="mailto:art&co.gmailcom?subject=Order from Website" class="email-button">📧 Email Us to Order</a>
+      </div>
+    </section>
+  </div>
+
+  <footer style="background-color: #222; color: #fff; padding: 40px 20px; text-align: center; margin-top: 60px;">
+    <div style="max-width: 900px; margin: 0 auto;">
+      
+      <h3 style="margin-bottom: 10px;">ARCO & CO</h3>
+      <p style="margin-bottom: 20px;">Futuristic elegance for modern lifestyles. Discover your aesthetic with us.</p>
+  
+      <div style="margin-bottom: 20px;">
+        <a href="index.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Home</a>
+        <a href="cart.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Cart</a>
+        <a href="about.html" style="color: #fff; margin: 0 15px; text-decoration: none;">About</a>
+        <a href="supportus.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Support us</a>
+      </div>
+  
+      <div style="margin-bottom: 20px;">
+        <p style="margin: 4px;">Email: art&co.gmail.com</p>
+        <p style="margin: 4px;">Phone: +1 234 567 890</p>
+      </div>
+  
+      <div style="margin-bottom: 20px;">
+        <a href="#" style="color: #fff; font-size: 20px; margin: 0 10px;">🔗</a>
+        <a href="#" style="color: #fff; font-size: 20px; margin: 0 10px;">📸</a>
+        <a href="#" style="color: #fff; font-size: 20px; margin: 0 10px;">🐦</a>
+      </div>
+  
+      <hr style="border: none; border-top: 1px solid #444; margin: 30px 0;">
+  
+      <p style="font-size: 14px; color: #aaa;">© 2025 ARCO & CO. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
